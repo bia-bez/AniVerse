@@ -41,6 +41,8 @@ Desenvolver uma interface moderna e interativa que simule uma plataforma de stre
 
 
 
+## Créditos
+- Fanart da personagem Monica Everett: desenhada por mim
 
 ## 👩‍💻 Sobre a desenvolvedora
 
