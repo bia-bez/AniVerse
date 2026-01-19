@@ -1,57 +1,57 @@
 # AniVerse
 
-Projeto pessoal de plataforma de streaming de animes.
+Projeto pessoal de estudo inspirado em plataformas de streaming de animes.
 
-##  Sobre o projeto
+## Sobre o projeto
 
-AniVerse é um site inspirado em plataformas como Crunchyroll, criado como estudo pessoal para aprimorar minhas habilidades em **HTML, CSS e JavaScript**. A proposta visual une design minimalista com atmosfera artística inspirada em animação japonesa.
+AniVerse é um site inspirado em plataformas como Crunchyroll, desenvolvido como projeto de estudo para aprimorar minhas habilidades em **HTML, CSS e JavaScript**. A proposta visual une um design minimalista com uma atmosfera artística inspirada em animações japonesas.
 
-##  Tecnologias utilizadas
+## Tecnologias utilizadas
 
-* HTML5
-* CSS3 (responsividade, flexbox, hover effects)
-* JavaScript (aprendizado em andamento)
+* HTML5 (estruturação semântica)
+* CSS3 (Flexbox, responsividade, transições e efeitos visuais)
+* JavaScript (manipulação do DOM e eventos)
 
-##  Objetivo
+## Objetivo
 
-Desenvolver uma interface moderna e interativa que simule uma plataforma de streaming, destacando minhas habilidades técnicas e senso estético.
+Desenvolver uma interface moderna e interativa que simule uma plataforma de streaming, destacando tanto minhas habilidades técnicas quanto meu senso estético.
 
-##  Aprendizado envolvido
+## Aprendizado envolvido
 
-* Estruturação semântica de código
-* Boas práticas de escrita e organização de CSS
+* Estruturação semântica do HTML
+* Boas práticas de organização e escrita de CSS
 * Uso de transições e efeitos visuais
-* Estudos de JavaScript para interatividade
+* Fundamentos de JavaScript para interatividade com o usuário
 
-##  Status do projeto
+## Status do projeto
 
-🔹 Em desenvolvimento
-🔹 Layout inicial concluído
-🔹 Aprendizado contínuo de JavaScript para futuras funcionalidades
+🔹 Em desenvolvimento  
+🔹 Layout inicial concluído  
+🔹 JavaScript em evolução conforme avanço nos estudos  
 
-##  Próximos passos
+## Próximos passos
 
-* Implementar responsividade mobile
-* Criar carrossel de animes em JavaScript
-* Adicionar sistema simples de navegação entre páginas
-* Estudar implementação futura de API
+* Implementar responsividade para dispositivos móveis
+* Criar um carrossel de animes utilizando JavaScript
+* Adicionar navegação simples entre páginas
+* Estudar implementação futura de consumo de API
 
-##  Preview (exemplo do layout)
-<img width="1919" height="905" alt="rebranding" src="https://github.com/user-attachments/assets/65c0eb81-bd44-44ec-965a-d6dcdcdd82a9" />
+## Preview do layout
 
-
+<img width="1917" height="902" alt="Preview do layout do AniVerse" src="https://github.com/user-attachments/assets/d16b1940-fe59-42af-9bdf-7309663bd1c0" />
 
 ## Créditos
+
 - Fanart da personagem Monica Everett: desenhada por mim
 
-##  Sobre a desenvolvedora
+## Sobre a desenvolvedora
 
-Sou desenvolvedora com experiência em designer e ilustração. Unindo **visão artística e conhecimento técnico**.
+Sou desenvolvedora em formação, em constante aprendizado de tecnologias web e fundamentos de programação**.
 
-## 📞 Contato
+## Contato
 
 * **LinkedIn**: https://www.linkedin.com/in/bianca-dev/
 
 ---
 
-> 💡 *Este projeto representa minha evolução contínua como desenvolvedora. Qualquer feedback será muito bem-vindo!*
+> 💡 *Este projeto representa minha evolução contínua como desenvolvedora. Feedbacks são sempre bem-vindos!*
