@@ -1,4 +1,4 @@
-* {
+*:not(dialog) {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,6 +45,7 @@ html, body {
   list-style: none;
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 .nav-links a {
@@ -59,7 +60,7 @@ html, body {
 }
 
 /* Botão Login */
-#button-login a {
+#button-login {
   background-color: #33ee81;
   color: #0f0f0f;
   padding: 12px 20px;
@@ -87,7 +88,7 @@ html, body {
   height: 100%;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25),
     rgba(0, 0, 0, 0.2)
   );
   display: flex;
@@ -113,7 +114,7 @@ html, body {
 
 /*  MENSAGEM LOGIN  */
 
-#mensagem-login {
+/* #mensagem-login {
   position: fixed;
   top: 64px;
   width: 100%;
@@ -125,7 +126,113 @@ html, body {
   font-weight: 500;
   display: none;
   z-index: 9;
+} */
+
+dialog {
+  width: 350px;
+  height: 400px;
+  color: white;
+  padding: 30px;
+  background: rgba(15, 15, 15, 0.9); 
+  border-radius: 8px;
+  border: none;
+  font-size: 1.1rem;  
 }
+
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog form {
+  margin: 0;
+}
+
+.modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+.modal-body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.close-modal{
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #9a9a9a;
+  font-size: 1.2rem; 
+}
+
+.close-modal:hover {
+  color: #ffffff;
+}
+
+#login-title{
+  font-size: 1.6rem;
+  
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-group input{
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 16px; 
+}
+
+.input-group input:focus{
+  outline: 2px solid #33e1ee;
+}
+
+.password-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-password{
+  display: flex;
+  align-items: center;
+  gap: 4px;  
+  color:#d1d1d1;
+}
+
+a.forgot-password {    
+  font-size: 1.1rem;
+  /* color: #aebfc0 */
+  
+}
+
+#login_buttom{
+  background-color: #33ee81;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.register span {
+  
+}
+
+.register a{
+  font-size: 1.2rem;
+  color: #e6d27a;
+  text-decoration: none;
+}
+
 
 /*  FOOTER  */
 
@@ -136,3 +243,6 @@ html, body {
   font-size: 0.85rem;
   color: #9a9a9a;
 }
+
+
+

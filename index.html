@@ -1,45 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AniVerse</title>    
-    <link rel="stylesheet" href="assets/style.css">    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AniVerse</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />  
+  <link rel="stylesheet" href="assets/main.css" />
 </head>
+
 <body>
-<!-- Header da Navegação -->
-    <header class="header">
-      <nav class="nav" aria-label="Menu principal">
-        <h1 class="logo">AniVerse</h1>  
+  <!-- Header Navegação -->
+  <header class="header">
+    <nav class="nav" aria-label="Menu principal">
+      <h1 class="logo">AniVerse</h1>
 
-        <ul class="nav-links">
-          <li><a href="#">Novidades</a></li>
-          <li><a href="#">Populares</a></li>
-          <li><a href="#">Categorias</a></li>
-          <li id="button-login"><a href="#">Login</a></li>
-        </ul>
-      </nav>  
-    </header>
-    <p id="mensagem-login"></p> 
+      <ul class="nav-links">
+        <li><a href="#">Novidades</a></li>
+        <li><a href="#">Populares</a></li>
+        <li><a href="#">Categorias</a></li>
 
-<!-- Conteúdo principal -->
-    <main>
-      <section class="hero">
-        <div class="hero-overlay">
-          <div class="hero-content">
-            <h2 id="titulo">The Silent Witch</h2>
-            <p id="descricao">
-              Os humanos não conseguiam controlar a magia sem precisar pronunciar algo, até que Monica Everett — The Silent Witch, uma das Sete Sábias — tornou possível a magia sem palavras.
-            </p>           
-          </div>
+        <li>
+          <button
+            id="button-login"
+            class="open-modal"
+            data-modal="modal-1"
+          >
+            Login
+          </button>
+
+          <!-- Modal Login -->
+          <dialog id="modal-1">
+            <form>
+              <div class="modal-header">
+                <h1 id="login-title">Login</h1>
+                <button
+                  class="close-modal"
+                  data-modal="modal-1"
+                  type="button"
+                  aria-label="Fechar modal"
+                >
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="nome@exemplo.com"
+                    required 
+                  />
+                </div>
+
+                <div class="input-group">
+                  <label for="password">Senha</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="•••••••"
+                    required 
+                  />
+                </div>
+
+                <div class="password-options">
+                  <div class="remember-password">
+                    <input
+                      type="checkbox"
+                      name="remember_password"
+                      id="remember_password"
+                    />
+                    <label for="remember_password">
+                      Lembrar senha
+                    </label>
+                  </div>
+
+                  <a href="#" class="forgot-password">
+                    Esqueci minha senha
+                  </a>
+                </div>
+
+                <button id="login_buttom">
+                  Entrar
+                </button>
+
+                <div class="register">
+                  <span>Não tem conta?</span>
+                  <a href="#">
+                    Criar conta
+                  </a>
+                </div>
+              </div>
+            </form>
+          </dialog>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <p id="mensagem-login"></p>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <section class="hero">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h2 id="titulo">The Silent Witch</h2>
+          <p id="descricao">
+            Os humanos não conseguiam controlar a magia sem precisar
+            pronunciar algo, até que Monica Everett — The Silent Witch,
+            uma das Sete Sábias — tornou possível a magia sem palavras.
+          </p>
         </div>
-      </section> 
-    </main>  
+      </div>
+    </section>
+  </main>
 
-<!-- Footer -->
-    <footer class="footer">
-      <p>Criado por Bianca Oliveira — Todos os direitos reservados © 2025</p>
-    </footer>
-    <script src="assets/main.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Criado por Bianca Oliveira — Todos os direitos reservados © 2025
+    </p>
+  </footer>
+
+  <script src="assets/main.js"></script>
 </body>
 </html>
