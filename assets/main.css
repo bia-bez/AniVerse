@@ -112,21 +112,7 @@ html, body {
   color: #d1d1d1;
 }
 
-/*  MENSAGEM LOGIN  */
-
-/* #mensagem-login {
-  position: fixed;
-  top: 64px;
-  width: 100%;
-  text-align: center;
-  padding: 12px 0;
-  background-color: rgba(51, 238, 129, 0.95);
-  color: #0f0f0f;
-  font-size: 0.95rem;
-  font-weight: 500;
-  display: none;
-  z-index: 9;
-} */
+/* MODAL */
 
 dialog {
   width: 350px;
@@ -209,8 +195,7 @@ dialog form {
 }
 
 a.forgot-password {    
-  font-size: 1.1rem;
-  /* color: #aebfc0 */
+  font-size: 1.1rem;  
   
 }
 
@@ -223,16 +208,11 @@ a.forgot-password {
   cursor: pointer;
 }
 
-.register span {
-  
-}
-
 .register a{
   font-size: 1.2rem;
   color: #e6d27a;
   text-decoration: none;
 }
-
 
 /*  FOOTER  */
 
