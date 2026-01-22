@@ -1,16 +1,19 @@
-# AniVerse
-
-Projeto pessoal de estudo inspirado em plataformas de streaming de animes.
-
 ## Sobre o projeto
 
 AniVerse é um site inspirado em plataformas como Crunchyroll, desenvolvido como projeto de estudo para aprimorar minhas habilidades em **HTML, CSS e JavaScript**. A proposta visual une um design minimalista com uma atmosfera artística inspirada em animações japonesas.
 
+## Funcionalidades
+
+- Página principal com layout inspirado em plataformas de streaming de animes  
+- Modal de login utilizando `<dialog>` e JavaScript  
+- Interface escura com foco em imersão visual  
+- Estrutura pensada para expansão futura  
+
 ## Tecnologias utilizadas
 
-* HTML5 (estruturação semântica)
-* CSS3 (Flexbox, responsividade, transições e efeitos visuais)
-* JavaScript (manipulação do DOM e eventos)
+* HTML5 
+* CSS3 
+* JavaScript (ES6)
 
 ## Objetivo
 
@@ -27,7 +30,6 @@ Desenvolver uma interface moderna e interativa que simule uma plataforma de stre
 
 🔹 Em desenvolvimento  
 🔹 Layout inicial concluído  
-🔹 JavaScript em evolução conforme avanço nos estudos  
 
 ## Próximos passos
 
