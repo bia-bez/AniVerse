@@ -4,15 +4,21 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
   background-color: #0f0f0f;
   color: #ffffff;
 }
-
-/*  HEADER  */
 
 .header {
   position: fixed;
@@ -39,8 +45,6 @@ html, body {
   font-weight: 700;
 }
 
-/*  MENU  */
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -56,10 +60,9 @@ html, body {
 }
 
 .nav-links a:hover {
-  color: #33ee81; 
+  color: #33ee81;
 }
 
-/* Botão Login */
 #button-login {
   background-color: #33ee81;
   color: #0f0f0f;
@@ -71,8 +74,6 @@ html, body {
 #button-login a:hover {
   color: #ffffff;
 }
-
-/*  HERO  */
 
 .hero {
   height: 845px;
@@ -113,19 +114,18 @@ html, body {
 }
 
 /* MODAL */
-
 dialog {
   width: 350px;
   height: 400px;
   color: white;
   padding: 30px;
-  background: rgba(15, 15, 15, 0.9); 
+  background: rgba(15, 15, 15, 0.9);
   border-radius: 8px;
   border: none;
-  font-size: 1.1rem;  
+  font-size: 1.1rem;
 }
 
-dialog::backdrop{
+dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -133,7 +133,7 @@ dialog form {
   margin: 0;
 }
 
-.modal-header{
+.modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,59 +147,57 @@ dialog form {
   gap: 14px;
 }
 
-.close-modal{
+.close-modal {
   cursor: pointer;
   border: none;
   background-color: transparent;
   color: #9a9a9a;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
 .close-modal:hover {
   color: #ffffff;
 }
 
-#login-title{
+#login-title {
   font-size: 1.6rem;
-  
 }
 
-.input-group{
+.input-group {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.input-group input{
+.input-group input {
   background-color: #e5e5e5;
   border: none;
-  border-radius: 4px; 
-  padding: 10px 16px; 
+  border-radius: 4px;
+  padding: 10px 16px;
 }
 
-.input-group input:focus{
+.input-group input:focus {
   outline: 2px solid #33e1ee;
 }
 
-.password-options{
+.password-options {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.remember-password{
+.remember-password {
   display: flex;
   align-items: center;
-  gap: 4px;  
-  color:#d1d1d1;
+  gap: 4px;
+  color: #d1d1d1;
 }
 
-a.forgot-password {    
-  font-size: 1.1rem;  
-  
+a.forgot-password {
+  font-size: 1.1rem;
 }
 
-#login_buttom{
+#login_buttom {
   background-color: #33ee81;
   color: black;
   border: none;
@@ -208,13 +206,11 @@ a.forgot-password {
   cursor: pointer;
 }
 
-.register a{
+.register a {
   font-size: 1.2rem;
   color: #e6d27a;
   text-decoration: none;
 }
-
-/*  FOOTER  */
 
 .footer {
   background-color: #0a0a0a;
@@ -223,6 +219,3 @@ a.forgot-password {
   font-size: 0.85rem;
   color: #9a9a9a;
 }
-
-
-
